@@ -1,0 +1,41 @@
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container, .post {
+    background-color: #fff;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .container,
+body.dark-mode .post {
+    background-color: #444;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+footer a {
+    color: #007bff;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+body.dark-mode footer {
+    background-color: #333;
+}
+
+body.dark-mode footer a {
+    color: #add8e6;
+    background-color: #444;
+}
